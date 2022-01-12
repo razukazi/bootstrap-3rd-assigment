@@ -1,0 +1,726 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: url(../img/body.jpg);
+	}
+
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Zilla Slab', serif;*/
+
+header{
+	width: 100%;
+	background: #fff;
+	padding-bottom: 5px;
+	position: relative !important;
+}
+
+
+.nav-link{
+	color: #372f2d !important;
+	font-size: 16px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	}
+.nav-link:hover{
+	color: red !important;
+}
+
+.active{
+	color: red !important;
+}
+.nav-item{
+	margin-top: 16px;
+}
+.navbar-brand img{
+	width: 200px;
+	height: auto;
+	margin-top: -5px;
+}
+
+.input-group{
+	margin-top: 12px;
+}
+.input-group button{
+	background: url(../img/download.png);
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+.input-group button:hover{
+	background-position: bottom center;
+}
+.input-group button{
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+}
+.input-group .form-control{
+	font-weight: 400;
+	font-family: 'Oswald', sans-serif;
+	font-size: .875rem;
+}
+
+header form{
+	position: relative;
+}
+header form::before{
+	content: 'find your smokey bones';
+	position: absolute;
+	left: 0;
+	top: -5px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #372f2d;
+	font-weight: 700;
+}
+
+/********sub-menu section css start from here*/
+
+.sub-menu{
+	width: 100%;
+	height: 300px;
+	background: #eeecec;
+	position: absolute;
+	z-index: 999;
+	left: 0;
+	display: none;
+	top: 96px;
+
+}
+.nav-item:hover .sub-menu{
+	display: block;
+}
+
+.sub-menu a{
+	font-size: 12px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+	line-height: 1;
+	padding: 5px;
+	align-self: center;
+}
+
+
+.sub-menu .nav-item{
+	list-style: none;
+}
+.navbar{
+	position: inherit !important;
+}
+
+/*****banner section css start from here****/
+.col-md-12 .carousel-inner img{
+	height: 100vh;
+}
+.carousel-item img{*/
+	position: relative;
+} 
+
+.carousel-caption{
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    text-align: left;
+}
+
+.carousel-caption h2{
+	font-family: Oswald,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+.carousel-caption h1{
+	font-size: 77px;
+	font-family: Oswald,sans-serif;
+	color: #FFFFFF;
+	text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.carousel-caption p{
+	font-family: Oswald,sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.carousel-caption .btn-secondary{
+	background: url(../img/download2.png);
+	padding: 10px 30px;
+    background-position: top center;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-size: 1rem;
+    color: #fff;
+    border-color: #e43c2f;
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Oswald,sans-serif;
+}
+.carousel-caption .btn-secondary:hover{
+	background-position: top -48px center;
+	cursor: pointer;
+	color: #fff;
+	order-color: #c6261a;
+}
+
+/******banner footer section*********/
+
+.foot-content{
+	margin: 20px 0;
+}
+
+.foot-content{
+	background: url(../img/ban-foot.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 60px 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+.foot-content span{
+	display: inline-block;
+    font-size: 35px;
+    line-height: 1;
+    ont-family: "Zilla Slab",serif;
+    font-weight: 400!important;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+.foot-content h2{
+	display: block;
+    font-size: 70px;
+    line-height: 1.0;
+    font-family: Oswald,sans-serif!important;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.foot-content{
+	position: relative;
+}
+.foot-content::after{
+	content: "";
+	position: absolute;
+	display: block;
+	left: 12.5%;
+	bottom: 40%;
+	width: 700px;
+	height: 7px;
+	background-color: white;
+}
+.foot-content .btn-secondary{
+	background: url(../img/download2.png);
+	padding: 10px 30px;
+    background-position: top center;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-size: 1rem;
+    color: #fff;
+    border-color: #e43c2f;
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Oswald,sans-serif;
+}
+.foot-content .btn-secondary:hover{
+	background-position: top -48px center;
+	cursor: pointer;
+	color: #fff;
+	order-color: #c6261a;
+}
+/**********new item css start from here*********/
+.new-menu{
+	margin: 10px 0;
+}
+.right-text{
+	background: url(../img/new-item.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px 0px;
+	}
+
+.item-new .col-md-8 img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.item-new .new-content{
+	width: 350px;
+    margin: auto;
+    max-width: 100%;
+    padding: 125px 0;
+}
+
+.bangla-content p{
+	margin: 40px 0px;
+}
+.right-text p{
+	isplay: inline-block;
+    font-size: 22px;
+    line-height: 1;
+    font-family: "Zilla Slab",serif;
+    font-weight: 400!important;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.right-text span{
+	display: inline-block;
+    font-size: 32px;
+    font-family: Oswald,sans-serif;
+    font-weight: 600;
+    line-height: 1px;
+    color: #fff;
+    text-align: left;
+    margin-left: 40px;
+    text-transform: uppercase;
+
+    }
+
+.bangla-content .btn-secondary{
+	background: url(../img/download2.png);
+	padding: 10px 30px;
+    background-position: top center;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-size: 1rem;
+    color: #fff;
+    border-color: #e43c2f;
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Oswald,sans-serif;
+
+}
+.bangla-content .btn-secondary:hover{
+	background-position: top -48px center;
+	cursor: pointer;
+	color: #fff;
+	order-color: #c6261a;
+}
+
+
+/****** view menu css start from here*/
+
+.view-menu{
+	margin: 20px 0;
+}
+
+.text-content{
+	background: url(../img/new-item.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px 0px;
+}
+
+.view-menu .kutta-content{
+	width: 350px;
+    margin: auto;
+    max-width: 100%;
+    padding: 125px 0;
+}
+
+.bangla-content p{
+	margin: 40px 0px;
+}
+.text-content p{
+	isplay: inline-block;
+    font-size: 40px;
+    line-height: 30px;
+    font-family: "Zilla Slab",serif;
+    font-weight: 400!important;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.text-content span{
+	display: inline-block;
+    font-size: 53px;
+    font-family: Oswald,sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 40px;
+
+}
+
+.view-menu .col-md-8 img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+    background-size: cover;
+    background-position: center center;
+}
+.bangla-content .btn-secondary{
+	background: url(../img/download2.png);
+	padding: 10px 30px;
+    background-position: top center;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-size: 1rem;
+    color: #fff;
+    border-color: #e43c2f;
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Oswald,sans-serif;
+
+}
+.bangla-content .btn-secondary:hover{
+	background-position: top -48px center;
+	cursor: pointer;
+	color: #fff;
+	order-color: #c6261a;
+}
+
+
+
+/******bone team css start from here*/
+
+.bone-team{
+	margin-top: -20px;
+}
+.bone-team .foot-content span{
+	display: inline-block;
+    font-size: 46px;
+    line-height: 1;
+    font-family: "Zilla Slab",serif;
+    font-weight: 400!important;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.bone-team .foot-content p{
+	font-family: Oswald,sans-serif;
+	font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 1.025rem;
+    color: #fff;
+    display: block;
+    margin: 35px 100px;
+    margin-bottom: 20px;
+}
+
+.bone-team .foot-content::after{
+	content: "";
+	position: absolute;
+	display: block;
+	left: 12.5%;
+	bottom: 62%;
+	width: 700px;
+	height: 7px;
+	background-color: white;
+}
+.bone-team{
+	position: relative;
+}
+.bone-team .btn-secondary{
+	margin-top: 3px;
+}
+
+/***** happiest section css start***/
+
+.happy-team{
+	margin: 5px 0;
+}
+
+
+.happy-team span{
+	display: inline-block;
+    font-size: 73px;
+    line-height: 1;
+    font-family: "Zilla Slab",serif;
+    font-weight: 400!important;
+    color: #372f2d;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 70px;
+}
+.happy-team h1{
+	display: inline-block;
+    font-size: 118px;
+    line-height: 1;
+    font-family: Oswald,sans-serif!important;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #372f2d;
+    text-align: left;
+    margin-left: 70px;
+    margin-bottom: 70px;
+}
+.happy-team p{
+	font-family: "Zilla Slab",serif;
+    color: #372f2d;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 1.025rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.happy-team{
+	background: url(../img/whitebar.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.happy-team{
+	position: relative;
+}
+.happy-team .gray-bar img{
+	width: 330px;
+	height: 8px;
+	position: absolute;
+	right: 8.7%;
+	top: 35%;
+}
+.happy-team .btn-secondary{
+	background: url(../img/download2.png);
+	padding: 12px 30px;
+    background-position: top center;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-size: 1rem;
+    color: #fff;
+    border-color: #e43c2f;
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Oswald,sans-serif;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.happy-team .btn-secondary:hover{
+	background-position: top -48px center;
+	cursor: pointer;
+	color: #fff;
+	order-color: #c6261a;
+}
+/****footer section css start from here****/
+
+footer{
+	margin: 20px 30px;
+}
+footer{
+	background: url(../img/footer.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 70px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer span{
+	display: inline-block;
+    font-size: 63px;
+    line-height: 1;
+    font-family: "Zilla Slab",serif;
+    font-weight: 400!important;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 80px;
+}
+footer h2{
+	display: inline-block;
+    font-size: 54px;
+    line-height: 1;
+    font-family: Oswald,sans-serif!important;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 80px;
+}
+footer{
+	position: relative;
+}
+
+footer img{
+	width: 270px;
+	height: 6px;
+	position: absolute;
+	left: 11%;
+	bottom: 15%;
+}
+footer .col-md-7 p{
+	font-family: Oswald,sans-serif;
+	font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    font-size: 1.325rem;
+    margin-bottom: 25px;
+    display: block;
+    text-align: left!important;
+}
+
+footer .col-md-7 .btn-secondary{
+	background: url(../img/download2.png);
+	padding: 12px 40px;
+    background-position: top center;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-size: 1rem;
+    color: #fff;
+    border-color: #e43c2f;
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Oswald,sans-serif;
+    margin-top: 10px;
+    margin-right: 380px;
+
+}
+
+footer .col-md-7 .btn-secondary:hover{
+	background-position: top -48px center;
+	cursor: pointer;
+	color: #fff;
+	order-color: #c6261a;
+
+}
+
+/*******last section css code **********/
+
+.smokey-bones{
+	margin: 20px 30px;
+}
+.food-content img{
+	width: 28%;
+	height: auto;
+    padding: 15px 0px;
+    padding-bottom: 40px;
+    margin-left: 340px;
+    display: block;
+}
+
+
+.p-content ul{
+	margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+   text-align: center;
+}
+.p-content ul li{
+	display: inline-block;
+	justify-content: center;
+	cursor: pointer;
+
+}
+.p-content ul li a{
+	font-family: "Zilla Slab",serif;
+    text-transform: uppercase;
+    font-size: .75rem;
+    padding-right: 7px;
+    margin-right: 4px;
+    line-height: 1;
+    list-style: none;
+    text-decoration: none;
+    border-right: solid 1px #372f2d;
+    text-align: center;
+    color: #372f2d;
+    
+}
+.para span{
+	color: #372f2d;
+    font-size: .75rem;
+    margin-bottom: 0;
+    display: inline-block;
+    font-family: "Zilla Slab",serif;
+    text-align: center;
+    margin-left: 330px;
+
+}
+
+.para a{
+	display: inline-block;
+    font-size: .75rem;
+    font-family: "Zilla Slab",serif;
+    line-height: 1;
+    border-left: solid 1px #372f2d;
+    padding-left: 5px;
+    margin-left: 2px;
+  	color: #372f2d;
+  	font-family: "Zilla Slab",serif;
+
+}
+
+
+.icon-content{
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.fb, .insta, .twitter{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+}
+.fb img, .insta img, .twitter img{
+    width: 100%;
+}
+
+.fb-red, .insta-red, .t-red{
+    display: none;
+}
+.fb:hover .fb-black, .insta:hover .insta-black, .twitter:hover .t-black{
+    display: none;
+    transition: all 1s ease-in-out;
+}
+.fb:hover .fb-red, .insta:hover .insta-red, .twitter:hover .t-red{
+    display: inline-block;
+    transition: all 1s ease-in-out;
+}
+
+/******************doll section css*****************/
+
+
+.doll{
+	position: ;
+	bottom: 100%;
+	lefy: 50px;
+	width: 10px;
+	height: 10px;
+	background: blue;
+
+}
+
+
+
